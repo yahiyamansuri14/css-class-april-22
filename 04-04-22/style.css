@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Rubik+Glitch&display=swap');
+
+body {
+    font-family: 'Rubik Glitch', cursive;
+    /* background-color: aqua; */
+}
+
+/* demo of font-properties */
+/* span {
+    color: red;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+p {
+    color: blue;
+    font-weight: lighter;
+    font-variant: small-caps;
+} */
+
+/* ends demo of font-properties */
+
+/* starts demo of border properties */
+/* div {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black; */
+/*makes a div circle */
+/* border-radius: 50%; */
+
+/* create border around the div */
+/* border-right: 1px solid red; */
+/* 
+} */
+
+/* ends demo of border properties */
+
+/* demo of margin & paddin starts here */
+
+div {
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    /* margin: auto; */
+    /* 
+        Margin : Generating space around the div(borders).
+        Padding : Generating space around the content of div.
+    */
+
+    /*  margin: 20px;
+    padding: 20px; */
+    float: right;
+    margin-right: 100px;
+}
+
+p {
+    text-align: center;
+}
+
+/* demo of margin & paddin ends here */

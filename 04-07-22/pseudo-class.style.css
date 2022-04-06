@@ -1,0 +1,32 @@
+/* .heading-2:hover {
+    background-color: blue;
+    color: white;
+}
+
+button {
+    background-color: black;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+Example of Pseudo Classes Ends Above */
+
+/* p::first-line {
+    color: red;
+    font-variant: small-caps;
+} */
+
+p::first-letter {
+    font-size: 36px;
+    font-weight: bold;
+    color: red;
+}

@@ -1,0 +1,32 @@
+.flex-parent {
+    display: flex;
+    flex-direction: row;
+   /*  justify-content: space-around; */
+    /* flex-direction: column; */
+    
+}
+
+.flex-child {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.div-1 {
+   /*  height: 100px; */
+    background-color: antiquewhite;
+}
+
+.div-2 {
+    /* height: 200px; */
+    background-color: greenyellow;
+}
+
+.div-3 {
+    /* height: 300px; */
+    background-color: lightblue;
+}

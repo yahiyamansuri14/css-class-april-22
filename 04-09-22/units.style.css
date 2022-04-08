@@ -1,0 +1,57 @@
+/* body {
+    color: white;
+    height: 500px;
+    width: 500px;
+    border: 1px solid red;
+} */
+#p-1 {
+    font-size: 1vw;
+}
+
+.div-1 {
+    height: 10vh;
+    width: 10vw;
+    border: 2px solid red;
+    background-color: red;
+}
+
+#r-viewport {
+/*     position: absolute;
+    height: 30%; */
+    height: 150px;
+    width: 50%;
+    background-color: yellowgreen;
+    padding: 15px;
+}
+
+#parent {
+    padding: 15px;
+    height: 150px;
+    width: 70%;
+    background-color: blue;
+}
+
+#child {
+    padding: 15px;
+    height: 75px;
+    width: 50%;
+    background-color: green;
+}
+
+/* Example of fixed  and vh, vw, % units are above */
+/* REM unit is always relative to base font size of browser
+    if browser base font-size = 16px, then 1REM = 16px
+    so size of 1.5 REM = 1 REM + 0.5 REM = 16px + 8px = 24px
+*/
+p {
+    font-size: 1rem;
+}
+
+#em-example {
+    font-size: 24px;
+}
+
+#child-em-example {
+   font-size: 1em;
+}
+
